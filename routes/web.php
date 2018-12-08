@@ -22,3 +22,12 @@ Route::get('/new', [
 Route::get('/todos', [
     'uses' => 'TodosController@index'
 ]);
+
+Route::post('/create/todo', [
+    'uses' => 'TodosController@create'
+]);
+
+Route::get('/create/delete/{id}', [
+    'uses' => 'TodosController@delete',
+    'as' => 'todo.delete'
+]);
