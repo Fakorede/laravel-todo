@@ -64,6 +64,11 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            span {
+                font-size: 48px;
+            }
+
         </style>
     </head>
     <body>
